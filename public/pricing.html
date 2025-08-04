@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pricing – Poster x HotelRunner Integration</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #004aad;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 3rem 1rem;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: white;
+      padding: 2rem;
+      max-width: 360px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .price {
+      font-size: 2.5rem;
+      color: #004aad;
+      margin: 1rem 0;
+    }
+
+    .features {
+      text-align: left;
+      margin: 1.5rem 0;
+    }
+
+    .features li {
+      margin: 0.5rem 0;
+    }
+
+    .cta-button {
+      display: inline-block;
+      margin-top: 1.5rem;
+      padding: 0.8rem 1.5rem;
+      background-color: #004aad;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #00328c;
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Poster x HotelRunner Integration</h1>
+    <p>Start syncing your POS and PMS with no cost</p>
+  </header>
+
+  <div class="container">
+    <div class="card">
+      <h2>Free Plan</h2>
+      <p class="price">$0<span style="font-size: 1rem;">/month</span></p>
+      <ul class="features">
+        <li>✓ Unlimited syncing between Poster and HotelRunner</li>
+        <li>✓ Automated revenue, sales, and product updates</li>
+        <li>✓ Simple onboarding with mapping setup</li>
+        <li>✓ No credit card required</li>
+      </ul>
+      <a href="#" class="cta-button">Get Started – It’s Free</a>
+    </div>
+  </div>
+
+</body>
+</html>
